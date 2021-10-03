@@ -6,7 +6,7 @@ let
       # url = "git@github.com:glotcode/code-runner.git";
       url = "https://github.com/studyhub-co/code-runner.git";
       ref = "main";
-      rev = "c6faaf9c7a7715ea7bfc4603383a04a41679a01b";
+      rev = "7e68c4cb075bc646f21efb6c238afd8f674164cb";
     };
 
   codeRunner =
