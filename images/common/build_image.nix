@@ -32,7 +32,8 @@ pkgs.dockerTools.buildImage {
       installedPackages
     ];
 
-  diskSize = 8192;
+  # 1Gb should be enough
+  diskSize = 1*1024*1024;
   keepContentsDirlinks = keepContentsDirlinks;
 
   runAsRoot = ''
