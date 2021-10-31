@@ -10,7 +10,7 @@ let
 in
 build_image {
   pkgs = pkgs;
-  name = "glot/create-react-app";
+  name = "vermusl/create-react-app";
   tag = "latest";
   installedPackages = [
     pkgs.coreutils
